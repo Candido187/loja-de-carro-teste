@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>FastLine Motors</title>
+</head>
+<body>
+    <header>
+        <!-- Atualize o caminho para o diretório correto onde a imagem está armazenada -->
+        <img src="imagens/logo.png" alt="FastLine Motors Logo" id="logo"> <!-- Adiciona a imagem de logo -->
+        <h1>Compre hoje mesmo seu veículo</h1>
+    </header>
+
+    <!-- Mova a seção de pesquisa para o corpo do HTML -->
+    <section>
+        <input type="text" placeholder="Procure aqui o seu veículo dos sonhos" id="campo-pesquisa" oninput="pesquisar()">
+    </section>
+    
+    <section class="resultados-pesquisa" id="resultados-pesquisa">
+        <!-- Resultados da pesquisa serão exibidos aqui -->
+    </section>
+    
+    <footer>
+        <p>2024 - FastLine Motors. Compre um veículo. Todos os direitos reservados.</p>
+        <p>Entre em contato pelo e-mail: fastlinemotor@lojaonline.com</p>
+    </footer>
+    
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
